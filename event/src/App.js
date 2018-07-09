@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import { Button } from 'semantic-ui-react';
+// import logo from './logo.svg';
 // import './App.css';
 
 class App extends Component {
@@ -7,6 +8,11 @@ class App extends Component {
     return (
       <div className="App">
         <h1>Events app</h1>
+        <button className="ui icon button">
+        	<i className="smile icon"></i>
+        	CSS Button
+        </button>
+        <Button icon="smile" content="React Button" />
       </div>
     );
   }
